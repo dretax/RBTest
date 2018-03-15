@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBTestServer", "RBTestServer\RBTestServer.csproj", "{984905C5-C1AF-4C70-9D08-10AA226308FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBTestClient", "RBTestClient\RBTestClient.csproj", "{A32DC40B-7753-47EE-A7BB-692C668AC78A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{984905C5-C1AF-4C70-9D08-10AA226308FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984905C5-C1AF-4C70-9D08-10AA226308FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984905C5-C1AF-4C70-9D08-10AA226308FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984905C5-C1AF-4C70-9D08-10AA226308FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32DC40B-7753-47EE-A7BB-692C668AC78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32DC40B-7753-47EE-A7BB-692C668AC78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32DC40B-7753-47EE-A7BB-692C668AC78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32DC40B-7753-47EE-A7BB-692C668AC78A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
