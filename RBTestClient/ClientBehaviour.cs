@@ -1,19 +1,22 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using UnityEngine;
+using Random = System.Random;
 
 namespace RBTestClient
 {
     public class ClientBehaviour : UnityEngine.MonoBehaviour
     {
-        public void SendRandomNumberToServer()
+        [RPC]
+        public void ReceiveHardwareIDData(Dictionary<ulong, string> data)
         {
-            // UDP Connection using uLink's RPC method API from Client -> Server
-            networkView.RPC("IReceivedTheHWIDThankyou", UnityEngine.RPCMode.Server, new Random().Next(0, 6));
-            
-            // TPC connection using RB's TCP API from Client -> Server
-            string receivedmessage = RBTestClient.Instance.SendMessageToServer("randomnumber-" + new Random().Next(0, 6));
-            RustBuster2016.API.Hooks.LogData("RBTestClient", "We have received the server's random number which is: " + receivedmessage);
-            
+            RBTestClient.Instance.StoredPlayerSteamIDsWithHWID = data;
+        }
+
+        [RPC]
+        public void YourOwnRandomString(string myownrandomstring)
+        {
+            // do something with my own random string.
         }
     }
 }

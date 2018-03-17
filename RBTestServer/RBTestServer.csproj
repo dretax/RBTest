@@ -35,14 +35,26 @@
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\Projects\FougeriteProject\bin\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>E:\Users\DreTaX\Documents\Visual Studio 2013\Projects\FougeriteProject\bin\Assembly-CSharp.dll</HintPath>
+    </Reference>
     <Reference Include="Facepunch.ID, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\Projects\FougeriteProject\bin\Facepunch.ID.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.ID, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>E:\Users\DreTaX\Documents\Visual Studio 2013\Projects\FougeriteProject\bin\Facepunch.ID.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.MeshBatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\Projects\FougeriteProject\bin\Facepunch.MeshBatch.dll</HintPath>
     </Reference>
+    <Reference Include="Facepunch.MeshBatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>E:\Users\DreTaX\Documents\Visual Studio 2013\Projects\FougeriteProject\bin\Facepunch.MeshBatch.dll</HintPath>
+    </Reference>
     <Reference Include="Fougerite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\Projects\FougeriteProject\bin\Fougerite.dll</HintPath>
+    </Reference>
+    <Reference Include="Fougerite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>E:\Users\DreTaX\Documents\Visual Studio 2013\Projects\FougeriteProject\bin\Fougerite.dll</HintPath>
     </Reference>
     <Reference Include="RustBuster2016Server, Version=1.0.0.0, Culture=neutral">
       <HintPath>F:\adt\Server Fougerite1.62B Rustbuster1.69\Server\Modules\RustBuster2016Server\RustBuster2016Server.dll</HintPath>
@@ -54,8 +66,14 @@
     <Reference Include="uLink, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\Projects\FougeriteProject\bin\uLink.dll</HintPath>
     </Reference>
+    <Reference Include="uLink, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>E:\Users\DreTaX\Documents\Visual Studio 2013\Projects\FougeriteProject\bin\uLink.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\Projects\FougeriteProject\bin\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>E:\Users\DreTaX\Documents\Visual Studio 2013\Projects\FougeriteProject\bin\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\DreTaX\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_RBTest.1609742837.00" t="ExcludeRecursive" />
-    <e p="E:\Users\DreTaX\Documents\Visual Studio 2013\RBTest" t="IncludeFlat">
+    <e p="C:\Users\DreTaX\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_RBTest.-403425123.00" t="ExcludeRecursive" />
+    <e p="F:\Program Files (x86)\jsz\RBTest" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="RBTest.sln" t="IncludeFlat" />
       <e p="RBTestClient" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CharacterWaiter.cs" t="Include" />
         <e p="ClientBehaviour.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">

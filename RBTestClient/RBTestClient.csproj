@@ -56,6 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharacterWaiter.cs" />
     <Compile Include="ClientBehaviour.cs" />
     <Compile Include="RBTestClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
