@@ -36,9 +36,8 @@ namespace RBTestServer
                 
                 networkView.RPC("ReceiveHardwareIDData", UnityEngine.RPCMode.Others, player.UID, hwid);
                 
-                // UNTESTED TODO
-                uLink.NetworkView.Get(this).RPC("ReceiveHardwareIDData", uLink.RPCMode.Others, player.UID, hwid);
-                uLink.NetworkView.Get(this).RPC("ReceiveHardwareIDData", player.NetworkPlayer, player.UID, hwid);
+                //You can send RPC to a specific player too using this code:
+                uLink.NetworkView.Get(Player.PlayerClient.networkView).RPC("ReceiveHardwareIDData", player.NetworkPlayer, player.UID, hwid);
 
                 RBConnectionList.Remove(player.UID);
             }
